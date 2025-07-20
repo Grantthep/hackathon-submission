@@ -74,10 +74,10 @@ Assistant: You’re welcome!
    - Send your GitHub project link to **aaron@issacompass.com**, cc **mai@issacompass.com**
    - Find Aaron in person before **6 PM** to do a **5-minute live demo** of your project
 
-## Good Luck
+## 🎨 Be Creative, Be Memorable
+Main characters stand out — not because they take the easy path, but because they rise to the moment. If you find the simplest answer, submit it, and head out - pause and ask yourself: Is that really Main Character Energy? 
 
-This isn’t about the best technical project.  
-It’s only about energy, bravery, and thoughtfulness.
+This isn't about the most technical deep solution - but the most thoughtful one. Think of the main characters you admire — what would they do in this situation? They’d go deeper. Take risks. Push boundaries. That’s who we’re looking for.
 
-Have fun!
+Good luck and have fun!
 — Team Issa 🚀
