@@ -2,15 +2,15 @@
 
 Welcome to the Vibe Hackathon by **Issa Compass** — a software company on a mission to make moving and living in a new country as easy as ordering from Grab. We’re starting with visas. More about us: [issacompass.com/about](https://www.issacompass.com/about)
 
-## 🌟 Today's Project
-
-Design an **AI assistant** that can respond to customer messages — helping them early through the visa process (before they get supported by our legal team), identifying high-intent customers, and don't sound like a robot.
-
 You'll be working under [Aaron Yip](https://www.linkedin.com/in/aaron-builds) 👋  
 - 15+ years in Silicon Valley tech (self-driving cars, industry advisor for Apple, Google App of the Year)
 - Startup builder, product guy, Stanford University + Chula guest lecturer
 
 We’re offering **1 intern position** based on: **Main Character Energy** 🔥
+
+## 🌟 Today's Project
+
+Design an **AI assistant** that can respond to customer messages — helping them early through the visa process (before they get supported by our legal team), identifying high-intent customers, and doesn't sound like a robot.
 
 ## What We Look For
 
