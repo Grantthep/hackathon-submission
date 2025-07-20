@@ -4,7 +4,7 @@ Welcome to the Vibe Hackathon by **Issa Compass** — a software company on a mi
 
 You'll be working under [Aaron Yip](https://www.linkedin.com/in/aaron-builds) 👋  
 - 15+ years in Silicon Valley tech (self-driving cars, industry advisor for Apple, Google App of the Year)
-- Startup builder, product guy, Stanford University + Chula guest lecturer
+- Startup builder, product person, Stanford Uni + Chulalongkorn Uni guest lecturer
 
 We’re offering **1 intern position** based on: **Main Character Energy** 🔥
 
