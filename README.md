@@ -20,7 +20,7 @@ We care about **who you are**, not your resume.
 - **Brave** — You push beyond comfort zones
 - **Good vibes** — You help others and uplift your team
 - **Competitive** — You want to win, and you work hard for it
-- **Dream-Driven** — You have a big, bold vision for your future
+- **Big dreams** — You have a big, bold vision for your future
 
 ### ❌ We Don’t Care:
 - Which university you went to
