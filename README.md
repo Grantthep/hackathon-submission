@@ -18,7 +18,7 @@ We care about **who you are**, not your resume.
 
 ### ✅ You Are:
 - **Brave** — You push beyond comfort zones
-- **Kind** — You help others and uplift your team
+- **Good vibes** — You help others and uplift your team
 - **Competitive** — You want to win, and you work hard for it
 - **Dream-Driven** — You have a big, bold vision for your future
 
