@@ -75,9 +75,9 @@ Assistant: You’re welcome!
    - Find Aaron in person before **6 PM** to do a **5-minute live demo** of your project
 
 ## 🎨 Be Creative, Be Memorable
-Main characters stand out — not because they take the easy path, but because they rise to the moment. If you find the simplest answer, submit it, and head out - pause and ask yourself: Is that really Main Character Energy? 
+Main characters stand out — not because they take the easy path, but because they rise to the moment. 
 
-This isn't about the most technical deep solution - but the most thoughtful one. Think of the main characters you admire — what would they do in this situation? They’d go deeper. Take risks. Push boundaries. That’s who we’re looking for.
+This isn't about the most technical deep solution - but the most thoughtful one. Think of the main characters you admire — what would they do in this situation? They’d go deeper. Take risks. Push boundaries but always stay brave and kind. That’s who we’re looking for.
 
 Good luck and have fun!
 — Team Issa 🚀
