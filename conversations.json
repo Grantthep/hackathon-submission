@@ -1,0 +1,1664 @@
+[
+  {
+    "contact_id": "SYNTH_001",
+    "scenario": "First-time DTV applicant - Digital Nomad (Remote Worker)",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hello, I'm interested in the DTV visa for Thailand. I work remotely as a software developer for a US company.",
+        "timestamp": 1762500000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hi there! Thank you for reaching out. The DTV (Destination Thailand Visa) is perfect for remote workers like yourself. May I know your nationality and which country you'd like to apply from?",
+        "timestamp": 1762500060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "I'm American and currently in Bali. Can I apply from Indonesia?",
+        "timestamp": 1762500120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Yes, you can apply from Indonesia! For remote workers, our service fees are 18,000 THB including all government fees. The processing time in Indonesia is typically around 10 business days.",
+        "timestamp": 1762500180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What documents do I need to prepare?",
+        "timestamp": 1762500240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "For remote workers applying for the DTV, you'll need:\n\n1. Valid passport with at least 6 months validity\n2. Bank statements showing 500,000 THB equivalent for the past 3 months\n3. Employment contract or letter from your employer confirming remote work arrangement\n4. Proof of income (pay slips from the last 3 months)\n5. Passport-sized photo\n6. Proof of address in your submission country",
+        "timestamp": 1762500300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "I have all those. My bank balance has been above $15,000 USD for the past year actually. Do I need to convert it to THB?",
+        "timestamp": 1762500360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "No need to convert! As long as your bank statements show the equivalent of 500,000 THB (approximately $14,000-15,000 USD), that's acceptable. Please make sure the statements clearly show your name and the balance over the 3-month period.",
+        "timestamp": 1762500420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "Perfect. How do I get started?",
+        "timestamp": 1762500480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Please download our app and create an account. You can upload all your documents there, and our legal team will review them within 1-2 business days. Once approved, we'll guide you through the payment and submission process.\n\nApp link: [APP_LINK]",
+        "timestamp": 1762500540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Downloaded and signed up. Email is [EMAIL]. Uploading docs now.",
+        "timestamp": 1762500600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Great! I can see your account. Please upload all documents and we'll review them shortly. One important reminder: please make sure to maintain the 500,000 THB balance in your account until your visa is approved, as the embassy may request an updated statement.",
+        "timestamp": 1762500660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Done! All uploaded. How long do I need to stay in Indonesia while waiting?",
+        "timestamp": 1762500720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "According to official regulations, you should remain in Indonesia until the visa is approved. If you leave before your visa is issued, we won't be able to extend our money-back guarantee. Processing typically takes about 10 business days in Indonesia.",
+        "timestamp": 1762500780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Understood. I'll stay put. Thanks for the help!",
+        "timestamp": 1762500840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "You're welcome! Our legal team will review your documents and provide feedback in the app. Feel free to reach out if you have any questions. Our working hours are 10 AM to 6 PM Thailand time.",
+        "timestamp": 1762500900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_002",
+    "scenario": "Thai Cooking Class DTV - First Application",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi! I want to apply for DTV using Thai cooking class. Already enrolled at a school in Chiang Mai.",
+        "timestamp": 1762600000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! That's great that you already have enrollment at a cooking school. May I know your nationality and where you plan to submit your application?",
+        "timestamp": 1762600060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "I'm from Singapore. Planning to apply from here before traveling to Thailand.",
+        "timestamp": 1762600120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Perfect! Singapore is one of our recommended countries for DTV applications with high approval rates. Since you have your own cooking school enrollment, our service fee is 18,000 THB including all government fees.",
+        "timestamp": 1762600180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What documents needed from the cooking school?",
+        "timestamp": 1762600240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "From your cooking school, you'll need:\n\n1. Acceptance/Enrollment letter with your name, course dates (should be at least 6 months), and school details\n2. Proof of payment for the course\n3. The school's business registration\n\nThe enrollment letter should clearly state the training period dates. Please ensure the dates align with when you plan to enter Thailand.",
+        "timestamp": 1762600300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "My course is from March to August next year. Is 6 months okay?",
+        "timestamp": 1762600360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Yes, 6 months is perfect! That meets the minimum requirement. Please also prepare:\n\n1. Passport with 6+ months validity\n2. Bank statements showing 500,000 THB equivalent for 3 months\n3. Passport photo\n4. Proof of Singapore address",
+        "timestamp": 1762600420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "I have 80,000 SGD in savings. Is that enough?",
+        "timestamp": 1762600480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Yes, that's more than sufficient! 500,000 THB is approximately 19,000-20,000 SGD, so you're well above the requirement. Just ensure your bank statements show this balance consistently over the past 3 months.",
+        "timestamp": 1762600540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Great! One question - how long does processing take in Singapore?",
+        "timestamp": 1762600600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Processing in Singapore typically takes 7-10 business days. Please upload your documents through our app and our legal team will review them. We'll make sure everything is in order before submission to maximize your approval chances.",
+        "timestamp": 1762600660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Perfect. Downloading the app now. Will upload tonight.",
+        "timestamp": 1762600720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Sounds good! Please share your email address once you've signed up so we can prioritize your case. Looking forward to helping you!",
+        "timestamp": 1762600780000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_003",
+    "scenario": "Rejected Application - Seeking Reapplication Advice",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hello I need help urgently. My DTV application was rejected in Vietnam 😢",
+        "timestamp": 1762700000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "I'm sorry to hear about your rejection. Don't worry, we can help you. Can you share the rejection reason the embassy provided? Also, what type of DTV did you apply for?",
+        "timestamp": 1762700060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "They just said \"insufficient documentation\". I applied for Muay Thai training. I submitted everything - passport, bank statement, enrollment letter from the gym.",
+        "timestamp": 1762700120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "I understand how frustrating this must be. \"Insufficient documentation\" can mean several things. May I ask:\n\n1. Did your bank statement show 500,000 THB for at least 3 months?\n2. Was your enrollment letter for at least 6 months of training?\n3. What is your nationality?",
+        "timestamp": 1762700180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "I'm Australian. Bank statement showed about 400,000 THB only but it's been there for 6 months. The enrollment was for 4 months.",
+        "timestamp": 1762700240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "I see the issues now. There are two problems:\n\n1. The minimum bank balance required is 500,000 THB - your 400,000 THB was below this threshold\n2. The enrollment period should be at least 6 months for soft power activities like Muay Thai\n\nThese are likely why your application was rejected.",
+        "timestamp": 1762700300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "Oh no! Can I reapply? I can add more money to my account and extend the training.",
+        "timestamp": 1762700360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Yes, you can reapply! However, since you were rejected in Vietnam, we strongly recommend applying from a different country. Laos currently has the highest approval rate for reapplications.\n\nFor Laos, you'll need to:\n1. Increase your bank balance to 500,000+ THB and maintain it for 3 months\n2. Get a new enrollment letter showing 6+ months of training\n3. Attend an in-person interview at the embassy",
+        "timestamp": 1762700420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "An interview? What do they ask?",
+        "timestamp": 1762700480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "The interview in Laos is straightforward. They typically ask:\n\n1. Why you want to train Muay Thai in Thailand\n2. Your plans after the training\n3. How you'll support yourself financially\n\nDuring the interview, they'll ask to see your mobile banking app to verify your balance, so it's essential that you can show the 500,000 THB on the spot.",
+        "timestamp": 1762700540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "How long would I need to stay in Laos?",
+        "timestamp": 1762700600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "The processing time in Laos is approximately 2 weeks. You'll need to:\n\n1. Pay 10,000 THB government fee in person at the embassy (cash only, Thai baht)\n2. Attend the interview on an appointed date\n3. Wait for approval\n\nWe offer a money-back guarantee for applications in Laos, so if your visa isn't approved, we'll refund all fees or reapply from another country at no extra cost.",
+        "timestamp": 1762700660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "What's your service fee for Laos?",
+        "timestamp": 1762700720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "For Laos applications, our service fee is only 5,000 THB. You'll pay the 10,000 THB government fee directly at the embassy in person. So total cost is 18,000 THB.",
+        "timestamp": 1762700780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "That's reasonable. But I need to wait 3 months for the bank balance requirement?",
+        "timestamp": 1762700840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "Yes, ideally you should maintain 500,000+ THB for 3 months before applying. However, you can start preparing your other documents now. Upload everything to our app and our legal team will review them for free and advise you on the best timing to apply.",
+        "timestamp": 1762700900000
+      },
+      {
+        "message_id": 17,
+        "direction": "in",
+        "text": "Okay I'll do that. Thanks for explaining everything clearly!",
+        "timestamp": 1762700960000
+      },
+      {
+        "message_id": 18,
+        "direction": "out",
+        "text": "You're welcome! We're here to help. Please don't hesitate to reach out if you have more questions. We'll guide you through the whole process to make sure your reapplication is successful!",
+        "timestamp": 1762701020000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_004",
+    "scenario": "Self-Employed / Freelancer DTV Application",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi, I'm a freelance graphic designer. Can I apply for DTV?",
+        "timestamp": 1762800000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! Yes, freelancers and self-employed individuals can apply for the DTV. May I know your nationality and where your business is registered?",
+        "timestamp": 1762800060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "I'm German. My business is registered in Germany. I have clients from various countries.",
+        "timestamp": 1762800120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Great! For self-employed applicants, you'll need to demonstrate that your work is location-independent and you won't be working with Thai clients. Where do you plan to submit your application?",
+        "timestamp": 1762800180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "I'm currently in Malaysia. Can I apply here?",
+        "timestamp": 1762800240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Yes, Malaysia is a good option! For self-employed applicants, you'll need:\n\n1. Business registration documents (translated to English if in German)\n2. Bank statements showing 500,000 THB equivalent for 3 months\n3. Client contracts or invoices from the past 3 months\n4. Proof of income showing payments from clients\n5. Passport and photo",
+        "timestamp": 1762800300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "My business documents are in German. Do I need official translations?",
+        "timestamp": 1762800360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Yes, for visa applications, all documents must be in Thai or English. You'll need official English translations done by a certified translator. The translations should be stamped or signed to confirm accuracy.",
+        "timestamp": 1762800420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "What about client invoices? They're a mix of German and English.",
+        "timestamp": 1762800480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "For invoices, we can work with a mix. The key is that the embassy can verify:\n\n1. The invoice amounts match deposits in your bank statement\n2. The clients are not Thailand-based\n3. The dates are within the last 3 months\n\nIf any invoices need translation, please get those done as well.",
+        "timestamp": 1762800540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "One of my clients is actually a Thai company. Is that a problem?",
+        "timestamp": 1762800600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Yes, this could be problematic. One of the most important rules for the DTV is that you cannot work with Thai clients, suppliers, or companies. We recommend not including any invoices or contracts from Thai clients in your application.\n\nDo you have enough invoices from non-Thai clients to demonstrate your income?",
+        "timestamp": 1762800660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Yes I have plenty from EU and US clients. Should I avoid mentioning the Thai client at all?",
+        "timestamp": 1762800720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Exactly. Just submit documentation from your non-Thai clients. During any interview, if asked about your work, focus on your international clients only. The embassy may misunderstand and think you're trying to work in Thailand, which would lead to rejection.",
+        "timestamp": 1762800780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Got it. What's the processing time in Malaysia?",
+        "timestamp": 1762800840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "Processing in Malaysia typically takes 10-14 business days. Our service fee is 18,000 THB including government fees. Please upload your documents to our app and our legal team will review everything to ensure the highest chance of approval.",
+        "timestamp": 1762800900000
+      },
+      {
+        "message_id": 17,
+        "direction": "in",
+        "text": "Perfect. I'll get the translations done and upload everything this week.",
+        "timestamp": 1762800960000
+      },
+      {
+        "message_id": 18,
+        "direction": "out",
+        "text": "Sounds great! Once you've uploaded, share your email with us so we can prioritize your case. We'll review within 1-2 business days and provide feedback. Good luck!",
+        "timestamp": 1762801020000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_005",
+    "scenario": "Document Issues and Address Verification",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi I uploaded my documents but got feedback saying address proof is not acceptable?",
+        "timestamp": 1762900000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! Let me check your account. What email did you use to sign up?",
+        "timestamp": 1762900060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "[EMAIL]",
+        "timestamp": 1762900120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "I found your account. I see you uploaded a screenshot of your bank app as address proof. Unfortunately, this isn't accepted. We need an official document showing your name and address in the submission country.",
+        "timestamp": 1762900180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What counts as acceptable?",
+        "timestamp": 1762900240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Acceptable address proof includes:\n\n1. Utilities bill (electricity, gas, water) from the last 3 months\n2. Government letter (tax document, council letter)\n3. Rental agreement\n4. Driver's license with current address\n5. Bank statement (physical letter, not app screenshot)\n\nThe document must clearly show your name and address.",
+        "timestamp": 1762900300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "I'm staying with a friend. I don't have utilities in my name here.",
+        "timestamp": 1762900360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "In that case, do you have any of these:\n\n1. A valid driver's license from your home country with your address?\n2. A recent government letter sent to you?\n3. Any bank statements mailed to your address?",
+        "timestamp": 1762900420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "I have my UK driver's license but it expires next month. Will that work?",
+        "timestamp": 1762900480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "As long as it's valid at the time of application submission, it should work. Please upload clear photos of both the front and back of your driver's license. Make sure the address and expiry date are clearly visible.",
+        "timestamp": 1762900540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Okay uploading now. Anything else missing?",
+        "timestamp": 1762900600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Let me check your other documents... I also notice your passport photo doesn't meet requirements. It appears to be a selfie. We need a proper passport-style photo with white background.",
+        "timestamp": 1762900660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Oh sorry! I'll get a proper one taken. Any photo shops can do this?",
+        "timestamp": 1762900720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Yes, any photo shop or even some convenience stores can take passport photos. The requirements are:\n\n1. White background\n2. Face clearly visible, no shadows\n3. Neutral expression\n4. Recent photo (taken within 6 months)\n5. Size 4x6 cm or 2x2 inches",
+        "timestamp": 1762900780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Got it! Will upload both tonight. Thanks for the help!",
+        "timestamp": 1762900840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "You're welcome! Once you've uploaded both, our legal team will review again. We'll move you to the payment step once everything is approved. Feel free to message us if you have any questions!",
+        "timestamp": 1762900900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_006",
+    "scenario": "Visa Approved - Post-Approval Questions",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Great news! I just received email that my DTV is approved! 🎉",
+        "timestamp": 1763000000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Congratulations! 🎉 We're so happy for you! We've already forwarded the approval to your email and uploaded it to the app. You'll need to print out the PDF when you travel to Thailand.",
+        "timestamp": 1763000060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "Do I need to carry the printout every time I enter Thailand?",
+        "timestamp": 1763000120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Yes, you'll need to carry the printout of your DTV every time you enter or exit Thailand. The immigration officers will stamp your passport, but the DTV PDF is your official visa document.",
+        "timestamp": 1763000180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What about the arrival card? Do I still need to fill that out?",
+        "timestamp": 1763000240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Yes, please remember to fill out the Thailand Digital Arrival Card (TDAC) before each arrival. You can fill it out as early as 3 days before your arrival date at: [TDAC_LINK]",
+        "timestamp": 1763000300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "How long can I stay on each entry?",
+        "timestamp": 1763000360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "With the DTV, you can stay up to 180 days per entry. The visa itself is valid for 5 years with multiple entries allowed. If you want to stay longer than 180 days, you can do a border run or extend at immigration.",
+        "timestamp": 1763000420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "What about 90-day reporting? I heard that's required?",
+        "timestamp": 1763000480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Yes, if you stay in Thailand for more than 90 consecutive days, you must report your address to immigration every 90 days. This can be done:\n\n1. In person at an immigration office\n2. Online through the immigration website\n3. By mail\n\nWe also offer 90-day reporting service if you'd like help with this!",
+        "timestamp": 1763000540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Good to know! One more question - can I work for Thai companies with this visa?",
+        "timestamp": 1763000600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "No, the DTV specifically does not allow you to work for Thai companies or have Thai clients. You can only work remotely for companies and clients outside of Thailand. Working for Thai entities would require a different visa type and work permit.",
+        "timestamp": 1763000660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Understood! Thanks for all your help throughout this process!",
+        "timestamp": 1763000720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "You're very welcome! We're happy we could help you get your DTV. If you need any assistance with 90-day reporting or have questions in the future, don't hesitate to reach out. Enjoy Thailand! 🇹🇭",
+        "timestamp": 1763000780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Will do! You guys have been great 👍",
+        "timestamp": 1763000840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "Thank you so much! We've also just launched a referral program - share your unique code with friends and they'll get 500 THB off their visa service. Once their visa is approved, you'll receive 1,000 THB cash! Check the app for your code.",
+        "timestamp": 1763000900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_007",
+    "scenario": "Bank Balance and Financial Requirements Questions",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Quick question - does crypto count towards the 500,000 THB requirement?",
+        "timestamp": 1763100000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! Unfortunately, cryptocurrency holdings are not accepted as proof of the required funds. The embassy requires you to have 500,000 THB equivalent as cash balance in a traditional bank account.",
+        "timestamp": 1763100060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "What about stocks or investment accounts?",
+        "timestamp": 1763100120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Stocks and investment accounts are also not accepted as the primary proof of funds. However, you can include them as additional evidence of financial stability to strengthen your application. The 500,000 THB must be in a savings or checking account.",
+        "timestamp": 1763100180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "I see. I have about 300,000 THB in savings and 400,000 THB in stocks. Should I sell some stocks?",
+        "timestamp": 1763100240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Yes, we'd recommend transferring at least 200,000 THB more to your savings account to meet the 500,000 THB requirement. Important: the funds should be maintained for at least 3 months before you apply. So if you transfer now, wait 3 months before submitting your application.",
+        "timestamp": 1763100300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "3 months? That's a long time. Is there any way around this?",
+        "timestamp": 1763100360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "The 3-month requirement is set by the Thai embassy to ensure applicants have stable finances. Some embassies are stricter than others. If you can show that you recently sold investments and the money trail is clear, some embassies may accept it. However, for the highest approval chances, we recommend maintaining the balance for 3 months.",
+        "timestamp": 1763100420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "Which embassy is less strict about this?",
+        "timestamp": 1763100480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Generally, embassies in Southeast Asian countries like Malaysia and Indonesia tend to be more flexible. However, I should be honest - there's always a risk if you don't meet the standard 3-month requirement. Would you like us to review your specific documents and advise on the best approach?",
+        "timestamp": 1763100540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Yes please. What do you need from me?",
+        "timestamp": 1763100600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Please upload to our app:\n\n1. Your bank statements for the past 6 months\n2. Your investment account statements\n3. Any proof of the fund transfer (if you've already moved money)\n\nOur legal team will review and give you personalized advice within 1-2 business days.",
+        "timestamp": 1763100660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Okay will do. Is the review free?",
+        "timestamp": 1763100720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Yes, the document review is completely free! You only pay when you're ready to proceed with the visa application. We want to make sure you have the best chance of approval before you commit.",
+        "timestamp": 1763100780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "That's great. Uploading now. Thanks!",
+        "timestamp": 1763100840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "You're welcome! Please share your email once you've signed up so we can locate your account. We'll be in touch soon with our assessment.",
+        "timestamp": 1763100900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_008",
+    "scenario": "Payment Issues and Process Questions",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi my documents were approved. Ready to pay but having issues with the payment.",
+        "timestamp": 1763200000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! I'm sorry to hear you're having payment issues. What problem are you experiencing?",
+        "timestamp": 1763200060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "The card payment keeps failing. I tried 3 times already.",
+        "timestamp": 1763200120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "That's frustrating! Sometimes international card payments can be blocked by banks. Would you be able to pay via bank transfer instead?",
+        "timestamp": 1763200180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "Yes I can do transfer. What are the details?",
+        "timestamp": 1763200240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Great! Here are our bank transfer details:\n\nBank: [BANK_NAME]\nAccount Name: [ACCOUNT_NAME]\nAccount Number: [ACCOUNT_NUMBER]\nAmount: 18,000 THB\n\nPlease include your email address in the transfer reference so we can match the payment to your account.",
+        "timestamp": 1763200300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "Done! Just transferred. Here's the receipt.",
+        "timestamp": 1763200360000
+      },
+      {
+        "message_id": 8,
+        "direction": "in",
+        "text": "[Non-text message]",
+        "timestamp": 1763200380000
+      },
+      {
+        "message_id": 9,
+        "direction": "out",
+        "text": "Payment received, thank you! I've updated your account. We'll now proceed with submitting your application to the embassy.",
+        "timestamp": 1763200420000
+      },
+      {
+        "message_id": 10,
+        "direction": "in",
+        "text": "Great! How long until I hear back?",
+        "timestamp": 1763200480000
+      },
+      {
+        "message_id": 11,
+        "direction": "out",
+        "text": "Processing time is typically 10-14 business days. We'll keep you updated on any progress or if the embassy requests additional documents. You can also check the status in our app anytime.",
+        "timestamp": 1763200540000
+      },
+      {
+        "message_id": 12,
+        "direction": "in",
+        "text": "Perfect. Do I need to do anything else?",
+        "timestamp": 1763200600000
+      },
+      {
+        "message_id": 13,
+        "direction": "out",
+        "text": "Just a few reminders:\n\n1. Please remain in your submission country until the visa is approved for our money-back guarantee to apply\n2. Maintain the 500,000 THB balance in case they request an updated statement\n3. Keep your phone accessible in case we need to reach you urgently\n\nWe'll handle everything else!",
+        "timestamp": 1763200660000
+      },
+      {
+        "message_id": 14,
+        "direction": "in",
+        "text": "Understood. Thanks for the quick help!",
+        "timestamp": 1763200720000
+      },
+      {
+        "message_id": 15,
+        "direction": "out",
+        "text": "You're welcome! We'll be in touch soon. Our working hours are 10 AM to 6 PM Thailand time if you have any questions.",
+        "timestamp": 1763200780000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_009",
+    "scenario": "Embassy Interview Preparation",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "I just got scheduled for an interview at the embassy next week. What should I prepare?",
+        "timestamp": 1763300000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Congratulations on getting an interview slot! This is a good sign. Which embassy are you interviewing at and what type of DTV did you apply for?",
+        "timestamp": 1763300060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "Laos embassy. Applied for remote work DTV. I'm a content writer.",
+        "timestamp": 1763300120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Perfect! For the Laos interview, here's what you should bring:\n\n1. Printed copies of all documents you submitted\n2. Your mobile phone with banking app ready to show your balance\n3. 10,000 THB in cash (Thai baht only) for the government fee if not already paid\n4. Your passport",
+        "timestamp": 1763300180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What questions will they ask?",
+        "timestamp": 1763300240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "Common interview questions include:\n\n1. What do you do for work?\n2. Who are your clients? (Make sure to only mention non-Thai clients)\n3. Why do you want to stay in Thailand?\n4. How will you support yourself financially?\n5. How long do you plan to stay?\n\nThe key is to be honest and consistent with what you wrote in your application.",
+        "timestamp": 1763300300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "Should I mention I previously had a tourist visa?",
+        "timestamp": 1763300360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Only mention it if they ask about your previous travel to Thailand. If asked why you're switching from tourist visa to DTV, say it's because you want to stay longer while continuing your remote work. Don't say the DTV is \"better\" - just explain it fits your purpose better.",
+        "timestamp": 1763300420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "Got it. Anything I should definitely NOT say?",
+        "timestamp": 1763300480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Important things to avoid:\n\n1. Don't mention any Thai clients or business partners\n2. Don't say you plan to look for work in Thailand\n3. Don't complain about the visa process\n4. Don't be vague about your work - be specific about what you do\n5. Don't show nervousness - be confident and friendly",
+        "timestamp": 1763300540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "What time should I arrive?",
+        "timestamp": 1763300600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Arrive at least 30 minutes before your scheduled time. The embassy in Laos can be busy, and you may need to queue. Dress smartly - business casual is appropriate. First impressions matter!",
+        "timestamp": 1763300660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Thanks! I'm a bit nervous but this helps a lot.",
+        "timestamp": 1763300720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "You'll do great! Most interviews at Laos are straightforward and friendly. Just be yourself, answer honestly, and show your bank balance when asked. Please let us know how it goes! We're rooting for you! 💪",
+        "timestamp": 1763300780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Will do! Wish me luck 🤞",
+        "timestamp": 1763300840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "Good luck! 🍀 Remember, you've already been pre-approved by our legal team, so your documents are solid. The interview is just a formality to verify everything. You've got this!",
+        "timestamp": 1763300900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_010",
+    "scenario": "Muay Thai Training DTV - Detailed Process",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hey! Want to train Muay Thai in Thailand for 6 months. Heard about DTV visa.",
+        "timestamp": 1763400000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hi there! Yes, Muay Thai training qualifies for the DTV under the soft power/cultural activities category. This is a popular option! Where are you from and where would you like to apply?",
+        "timestamp": 1763400060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "I'm British. Currently traveling in Southeast Asia. Maybe apply from Cambodia?",
+        "timestamp": 1763400120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Cambodia is possible, but for Muay Thai DTVs, we actually recommend Laos for the highest approval rates. The embassy there is very familiar with soft power applications. Would you consider applying from Vientiane instead?",
+        "timestamp": 1763400180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "Sure, Laos works. What gym should I enroll at?",
+        "timestamp": 1763400240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "We work with several approved gyms across Thailand. Popular options are in Bangkok, Phuket, and Chiang Mai. Do you have a preference for location? We can recommend gyms that provide proper enrollment documentation for the DTV.",
+        "timestamp": 1763400300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "I was thinking Phuket. Want to be near the beach too!",
+        "timestamp": 1763400360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Great choice! We work with several reputable gyms in Phuket. They can provide:\n\n1. Official enrollment letter\n2. Training schedule (minimum 6 months)\n3. Payment receipts\n4. Gym registration documents\n\nWould you like us to help arrange enrollment?",
+        "timestamp": 1763400420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "Yes please! How much is the gym enrollment?",
+        "timestamp": 1763400480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Gym packages vary, but for a 6-month enrollment suitable for DTV, you're looking at approximately 60,000-100,000 THB depending on the gym and training intensity. This typically includes daily training sessions.",
+        "timestamp": 1763400540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "And your service fee on top of that?",
+        "timestamp": 1763400600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "For Laos applications with Muay Thai, our service fee is 5,000 THB. You'll also pay 10,000 THB government fee directly at the embassy in Laos. So total visa cost is 18,000 THB plus your gym enrollment.",
+        "timestamp": 1763400660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "What about the 500k THB bank requirement?",
+        "timestamp": 1763400720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Yes, you still need to show 500,000 THB equivalent (about £11,000-12,000) in your bank account for the past 3 months. During the interview in Laos, they'll ask to see your mobile banking app to verify the current balance.",
+        "timestamp": 1763400780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Interview? What's that like?",
+        "timestamp": 1763400840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "The Laos embassy requires an in-person interview for DTV applications. It's quite straightforward - they'll ask:\n\n1. Why you want to train Muay Thai\n2. Your experience level\n3. Your plans after training\n4. How you'll support yourself\n\nJust be honest and show genuine interest in the training!",
+        "timestamp": 1763400900000
+      },
+      {
+        "message_id": 17,
+        "direction": "in",
+        "text": "I've never done Muay Thai before. Is that a problem?",
+        "timestamp": 1763400960000
+      },
+      {
+        "message_id": 18,
+        "direction": "out",
+        "text": "Not at all! Many people start as beginners. Just explain you want to learn Thai martial arts and immerse yourself in the culture. The gyms accept all skill levels. Enthusiasm matters more than experience.",
+        "timestamp": 1763401020000
+      },
+      {
+        "message_id": 19,
+        "direction": "in",
+        "text": "Perfect. How long do I need to stay in Laos?",
+        "timestamp": 1763401080000
+      },
+      {
+        "message_id": 20,
+        "direction": "out",
+        "text": "Plan for about 2 weeks in Laos. The process is:\n\nDay 1: Pay government fee at embassy\nDays 2-7: Wait for interview appointment\nDay 8-10: Interview\nDays 11-14: Wait for approval and visa issuance\n\nTimelines can vary, so budget a bit of buffer time.",
+        "timestamp": 1763401140000
+      },
+      {
+        "message_id": 21,
+        "direction": "in",
+        "text": "That's quite long. Worth it though for 5 year visa!",
+        "timestamp": 1763401200000
+      },
+      {
+        "message_id": 22,
+        "direction": "out",
+        "text": "Exactly! The DTV gives you 5 years of multiple entry, up to 180 days per stay. Much better than doing constant visa runs. And you can always leave and re-enter for another 180 days.",
+        "timestamp": 1763401260000
+      },
+      {
+        "message_id": 23,
+        "direction": "in",
+        "text": "Alright I'm sold. What's the first step?",
+        "timestamp": 1763401320000
+      },
+      {
+        "message_id": 24,
+        "direction": "out",
+        "text": "First, download our app and upload your documents:\n\n1. Passport\n2. Bank statements (3 months)\n3. Passport photo\n4. Proof of current address\n\nWe'll review them and connect you with a gym in Phuket. Once enrolled, we'll prepare your full application package.",
+        "timestamp": 1763401380000
+      },
+      {
+        "message_id": 25,
+        "direction": "in",
+        "text": "On it! This is exciting. Thanks!",
+        "timestamp": 1763401440000
+      },
+      {
+        "message_id": 26,
+        "direction": "out",
+        "text": "You're welcome! We're excited to help you start your Muay Thai journey. Share your email once you've signed up and we'll take it from there! 🥊",
+        "timestamp": 1763401500000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_011",
+    "scenario": "Switching from Tourist Visa to DTV",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi, I'm currently in Thailand on tourist visa. Can I switch to DTV without leaving?",
+        "timestamp": 1763400000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! Unfortunately, you cannot convert a tourist visa to DTV while inside Thailand. You'll need to exit Thailand and apply for the DTV from another country.",
+        "timestamp": 1763400060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "That's what I thought. Which nearby country is best?",
+        "timestamp": 1763400120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "It depends on your nationality and DTV type. For most applicants, we recommend:\n\n1. Laos - highest approval rate, but requires in-person interview and 2-week wait\n2. Malaysia - good approval rate, 10-14 day processing\n3. Vietnam - fast processing but stricter requirements\n\nWhat's your nationality and what type of DTV are you applying for?",
+        "timestamp": 1763400180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "I'm Canadian. Want to apply as digital nomad - I do marketing consulting remotely.",
+        "timestamp": 1763400240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "For Canadian applicants doing remote work, Malaysia would be a great choice. Good approval rates, no interview required, and you can enjoy KL while waiting! Processing is typically 10-14 business days.",
+        "timestamp": 1763400300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "How much time do I need to budget for the whole process?",
+        "timestamp": 1763400360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "I'd recommend budgeting about 3 weeks total:\n\n- 1-2 days for document review and submission\n- 10-14 business days for processing\n- A few buffer days for any additional document requests\n\nMake sure your tourist visa allows you enough time to return if needed, or be prepared to extend your stay in Malaysia.",
+        "timestamp": 1763400420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "My tourist visa expires in 2 weeks. Should I extend it first?",
+        "timestamp": 1763400480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "If your tourist visa expires in 2 weeks, you should leave Thailand before it expires anyway. You could either:\n\n1. Leave now, apply for DTV in Malaysia, and return when approved\n2. Do a border run to extend, then leave for DTV application later\n\nOption 1 is more efficient - you'll need to leave Thailand anyway for the DTV application.",
+        "timestamp": 1763400540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Makes sense. What documents do I need to prepare before leaving?",
+        "timestamp": 1763400600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Prepare these before you leave Thailand:\n\n1. Passport with 6+ months validity\n2. Bank statements (3 months, showing 500,000 THB equivalent)\n3. Employment contract or client contracts\n4. Proof of income (invoices, payments)\n5. Passport photo\n\nYou can upload these to our app now and we'll review them before you travel!",
+        "timestamp": 1763400660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "That's super helpful. Can I start the process while still in Thailand?",
+        "timestamp": 1763400720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Yes! You can upload all documents to our app now and our legal team will review them for free. Once approved, you can make payment and we'll be ready to submit as soon as you arrive in Malaysia. This way, you minimize waiting time abroad.",
+        "timestamp": 1763400780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Perfect! Downloading the app now. What's the service fee?",
+        "timestamp": 1763400840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "For Malaysia applications, our service fee is 18,000 THB including all government fees. We also offer a money-back guarantee - if your visa isn't approved, we'll refund all fees or reapply from another country at no extra cost.",
+        "timestamp": 1763400900000
+      },
+      {
+        "message_id": 17,
+        "direction": "in",
+        "text": "Great deal! Starting now. Thanks so much!",
+        "timestamp": 1763400960000
+      },
+      {
+        "message_id": 18,
+        "direction": "out",
+        "text": "You're welcome! Share your email once you've signed up and we'll prioritize your case. Safe travels and looking forward to helping you get your DTV!",
+        "timestamp": 1763401020000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_012",
+    "scenario": "Embassy Document Request Follow-up",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "out",
+        "text": "Hi! We received a request from the embassy regarding your application. They're asking for additional documents.",
+        "timestamp": 1763500000000
+      },
+      {
+        "message_id": 2,
+        "direction": "in",
+        "text": "Oh no, what do they need?",
+        "timestamp": 1763500060000
+      },
+      {
+        "message_id": 3,
+        "direction": "out",
+        "text": "They're requesting:\n\n1. Updated bank statement (must be dated within 7 days)\n2. Entry/exit records from your country for the past year\n3. Additional proof of client payments matching your invoices",
+        "timestamp": 1763500120000
+      },
+      {
+        "message_id": 4,
+        "direction": "in",
+        "text": "The bank statement I can get. What about entry/exit records? How do I get those?",
+        "timestamp": 1763500180000
+      },
+      {
+        "message_id": 5,
+        "direction": "out",
+        "text": "You can usually get entry/exit records from your country's immigration department. Some countries offer this online through their immigration website. Which country are you a citizen of?",
+        "timestamp": 1763500240000
+      },
+      {
+        "message_id": 6,
+        "direction": "in",
+        "text": "South Korea. Is there an online system?",
+        "timestamp": 1763500300000
+      },
+      {
+        "message_id": 7,
+        "direction": "out",
+        "text": "Yes! For Korean citizens, you can get entry/exit records from the Korea Immigration Service website. You'll need your Korean ID to log in. The document should show all your international travel for the past 12 months.",
+        "timestamp": 1763500360000
+      },
+      {
+        "message_id": 8,
+        "direction": "in",
+        "text": "Found it! Downloading now. What format do they need?",
+        "timestamp": 1763500420000
+      },
+      {
+        "message_id": 9,
+        "direction": "out",
+        "text": "A PDF printout is fine. Make sure it's dated - the embassy wants to see it was generated recently, ideally within a day or two of submission. Please upload it to the app once you have it.",
+        "timestamp": 1763500480000
+      },
+      {
+        "message_id": 10,
+        "direction": "in",
+        "text": "Got it. What about the payment proof? I already sent invoices.",
+        "timestamp": 1763500540000
+      },
+      {
+        "message_id": 11,
+        "direction": "out",
+        "text": "The embassy wants to see that the invoice amounts match actual deposits in your bank statement. Can you provide:\n\n1. Bank statement highlighting the specific deposits\n2. Payment receipts or transfer confirmations from clients\n\nThe dates and amounts should match your invoices.",
+        "timestamp": 1763500600000
+      },
+      {
+        "message_id": 12,
+        "direction": "in",
+        "text": "Some payments have service fees deducted so amounts don't match exactly. Is that okay?",
+        "timestamp": 1763500660000
+      },
+      {
+        "message_id": 13,
+        "direction": "out",
+        "text": "That's common and acceptable. If the amounts are slightly different due to fees, please provide any documentation showing the fee breakdown. We can explain this to the embassy - just make sure the dates align.",
+        "timestamp": 1763500720000
+      },
+      {
+        "message_id": 14,
+        "direction": "in",
+        "text": "Okay I'll get everything together. How quickly do they need this?",
+        "timestamp": 1763500780000
+      },
+      {
+        "message_id": 15,
+        "direction": "out",
+        "text": "Please try to submit within 3 business days. The embassy has a deadline for document requests. If we don't respond in time, they may reject the application.",
+        "timestamp": 1763500840000
+      },
+      {
+        "message_id": 16,
+        "direction": "in",
+        "text": "Got it! I'll upload everything tonight. Thanks for the quick response!",
+        "timestamp": 1763500900000
+      },
+      {
+        "message_id": 17,
+        "direction": "out",
+        "text": "No problem! Once you upload, our team will review and submit to the embassy right away. Message us if you have any trouble getting any of the documents!",
+        "timestamp": 1763500960000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_013",
+    "scenario": "Long-term Stay and Extension Questions",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Question - I've been in Thailand for 5 months on my DTV. How do I extend?",
+        "timestamp": 1763600000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hi there! With the DTV, you're allowed up to 180 days per entry. If you've been here 5 months (about 150 days), you have about 30 days left before you need to exit. You don't need to extend - you just leave and re-enter for another 180 days!",
+        "timestamp": 1763600060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "So I just do a border run? Where's the easiest place?",
+        "timestamp": 1763600120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Yes exactly! For DTV holders, the easiest options are:\n\n1. Fly to a nearby country (Malaysia, Singapore, Cambodia)\n2. Land border crossing (Malaysia border from southern Thailand)\n\nYou can return the same day or spend a few days abroad. When you re-enter, you'll get another 180 days.",
+        "timestamp": 1763600180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What do I need to show when re-entering?",
+        "timestamp": 1763600240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "When re-entering Thailand, have ready:\n\n1. Your passport with DTV\n2. Printed copy of your DTV approval PDF\n3. Completed Thailand Digital Arrival Card (TDAC)\n\nThe immigration officer will stamp your passport for another 180 days.",
+        "timestamp": 1763600300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "Do I need to show bank balance again?",
+        "timestamp": 1763600360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Usually no - the financial requirements were verified when you got the visa. However, immigration officers can technically ask. It's good practice to maintain a healthy balance just in case, but it's rarely checked on re-entry.",
+        "timestamp": 1763600420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "What about 90-day reporting? I haven't done it yet.",
+        "timestamp": 1763600480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "If you've been in Thailand over 90 days continuously, you're overdue for 90-day reporting! You need to report your address to immigration. Options:\n\n1. Go to immigration office in person\n2. Do it online (if registered)\n3. Use an agent service\n\nWe offer 90-day reporting assistance if you'd like help!",
+        "timestamp": 1763600540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Am I in trouble for being late?",
+        "timestamp": 1763600600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "There's technically a fine for late reporting (2,000 THB), but many offices are lenient with first-timers. Just go as soon as possible and explain you weren't aware. They usually just remind you for next time.",
+        "timestamp": 1763600660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "Okay I'll do it tomorrow. Do I need to report again before I leave for border run?",
+        "timestamp": 1763600720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "Good question! When you leave Thailand, your 90-day counter resets. So after your border run and re-entry, you'll have a fresh 90 days before the next report is due.",
+        "timestamp": 1763600780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Perfect! That makes it easier. Thanks for explaining all this!",
+        "timestamp": 1763600840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "You're welcome! Feel free to reach out if you have more questions. Enjoy your continued stay in Thailand! 🇹🇭",
+        "timestamp": 1763600900000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_014",
+    "scenario": "Pricing Comparison and Money-back Guarantee",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "Hi, can you explain your pricing? I've seen different prices mentioned.",
+        "timestamp": 1763700000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hello! Of course. Our pricing depends on two factors:\n\n1. Type of DTV (remote work, soft power activities like cooking/Muay Thai, etc.)\n2. Country where you'll apply\n\nWhat type are you interested in and where would you apply from?",
+        "timestamp": 1763700060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "Remote work DTV. Probably from Malaysia or Vietnam.",
+        "timestamp": 1763700120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "For remote work DTV:\n\n- Malaysia: 18,000 THB (includes government fees)\n- Vietnam: 18,000 THB (includes government fees)\n\nBoth have similar processing times of 10-14 business days. Malaysia currently has a slightly higher approval rate.",
+        "timestamp": 1763700180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "What if I want to do Thai cooking class instead?",
+        "timestamp": 1763700240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "For Thai cooking class DTV:\n\n- If you arrange your own school enrollment: 18,000 THB\n- If we arrange enrollment for you: Price varies by school (enrollment + 18,000 THB service fee)\n\nThe advantage of cooking class is you don't need to prove remote employment - just the school enrollment.",
+        "timestamp": 1763700300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "And Laos? I heard that's cheaper.",
+        "timestamp": 1763700360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Yes! Laos is our most affordable option:\n\n- Service fee: Only 5,000 THB\n- Government fee: 10,000 THB (paid in person at embassy)\n- Total: 18,000 THB\n\nHowever, Laos requires an in-person interview and about 2 weeks stay. We highly recommend Laos for reapplications after rejection.",
+        "timestamp": 1763700420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "What's this money-back guarantee I keep hearing about?",
+        "timestamp": 1763700480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "Great question! If your visa isn't approved, we offer two options:\n\n1. Full refund of all fees (including government fees we paid on your behalf)\n2. Reapply from another country at no extra cost\n\nThis guarantee applies to most countries except a few (like Taiwan) where embassy practices are unpredictable.",
+        "timestamp": 1763700540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "Are there countries without guarantee?",
+        "timestamp": 1763700600000
+      },
+      {
+        "message_id": 12,
+        "direction": "out",
+        "text": "Yes, a few countries don't have our money-back guarantee due to unpredictable embassy practices:\n\n- Taiwan (strict in-person interviews)\n- Some countries for reapplication after previous rejection\n\nWe'll always be transparent about this before you proceed.",
+        "timestamp": 1763700660000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "That's fair. Hidden fees?",
+        "timestamp": 1763700720000
+      },
+      {
+        "message_id": 14,
+        "direction": "out",
+        "text": "No hidden fees! The price we quote includes:\n\n- Document review and preparation\n- Application submission\n- Government fees\n- Communication with embassy\n- Support throughout the process\n\nThe only additional costs would be if you need document translation (we can recommend services) or gym/school enrollment for soft power DTVs.",
+        "timestamp": 1763700780000
+      },
+      {
+        "message_id": 15,
+        "direction": "in",
+        "text": "Sounds reasonable. When do I pay?",
+        "timestamp": 1763700840000
+      },
+      {
+        "message_id": 16,
+        "direction": "out",
+        "text": "Payment happens after our legal team reviews and approves your documents. This way, you don't pay until we're confident your application is ready for submission. Document review is completely free!",
+        "timestamp": 1763700900000
+      },
+      {
+        "message_id": 17,
+        "direction": "in",
+        "text": "Perfect. I'll start uploading my documents then.",
+        "timestamp": 1763700960000
+      },
+      {
+        "message_id": 18,
+        "direction": "out",
+        "text": "Sounds great! Download our app and create an account. Our team will review within 1-2 business days and let you know if everything looks good. Looking forward to helping you!",
+        "timestamp": 1763701020000
+      }
+    ]
+  },
+  {
+    "contact_id": "SYNTH_015",
+    "scenario": "Urgent Application - Time Sensitive",
+    "conversation": [
+      {
+        "message_id": 1,
+        "direction": "in",
+        "text": "URGENT! My tourist visa expires in 10 days and I need DTV. Can you help fast?",
+        "timestamp": 1763800000000
+      },
+      {
+        "message_id": 2,
+        "direction": "out",
+        "text": "Hi! I understand the urgency. Let me help you figure out the best plan. First, where are you currently located?",
+        "timestamp": 1763800060000
+      },
+      {
+        "message_id": 3,
+        "direction": "in",
+        "text": "In Bangkok right now. Tourist visa expires on the 15th.",
+        "timestamp": 1763800120000
+      },
+      {
+        "message_id": 4,
+        "direction": "out",
+        "text": "Okay, here's the situation: You'll need to leave Thailand before the 15th to avoid overstay penalties. Since DTV processing takes 10-14 days minimum, you have two options:\n\n1. Leave Thailand, apply for DTV from abroad, wait for approval, then return\n2. Do a quick border run for tourist extension, then plan DTV properly",
+        "timestamp": 1763800180000
+      },
+      {
+        "message_id": 5,
+        "direction": "in",
+        "text": "I want to get the DTV done. Where's the fastest?",
+        "timestamp": 1763800240000
+      },
+      {
+        "message_id": 6,
+        "direction": "out",
+        "text": "For speed, Vietnam and Malaysia are good options with 10-14 day processing. However, you need to have your documents ready NOW. Do you have:\n\n1. Bank statements showing 500k THB for 3 months?\n2. Employment proof (contract, invoices)?\n3. Passport with 6+ months validity?",
+        "timestamp": 1763800300000
+      },
+      {
+        "message_id": 7,
+        "direction": "in",
+        "text": "Yes I have everything ready. I prepared months ago just never applied.",
+        "timestamp": 1763800360000
+      },
+      {
+        "message_id": 8,
+        "direction": "out",
+        "text": "Perfect! Then here's the plan:\n\n1. Upload all documents to our app RIGHT NOW\n2. Our team will review today/tomorrow (we'll prioritize urgent cases)\n3. Pay and fly to Malaysia/Vietnam within 2-3 days\n4. We submit immediately upon your arrival",
+        "timestamp": 1763800420000
+      },
+      {
+        "message_id": 9,
+        "direction": "in",
+        "text": "How do I upload? Sending everything via WhatsApp okay?",
+        "timestamp": 1763800480000
+      },
+      {
+        "message_id": 10,
+        "direction": "out",
+        "text": "You can send here via WhatsApp and we'll upload for you! Please send:\n\n1. Passport (all pages with stamps)\n2. Bank statements (last 3 months)\n3. Employment contract or client contracts\n4. Recent invoices showing income\n5. Passport photo\n6. Proof of current address",
+        "timestamp": 1763800540000
+      },
+      {
+        "message_id": 11,
+        "direction": "in",
+        "text": "[Non-text message]",
+        "timestamp": 1763800600000
+      },
+      {
+        "message_id": 12,
+        "direction": "in",
+        "text": "[Non-text message]",
+        "timestamp": 1763800620000
+      },
+      {
+        "message_id": 13,
+        "direction": "in",
+        "text": "[Non-text message]",
+        "timestamp": 1763800640000
+      },
+      {
+        "message_id": 14,
+        "direction": "in",
+        "text": "Sent everything! Please check.",
+        "timestamp": 1763800660000
+      },
+      {
+        "message_id": 15,
+        "direction": "out",
+        "text": "Received! Our legal team is reviewing now. We'll get back to you within a few hours given the urgency. In the meantime, start looking at flights to Kuala Lumpur for day after tomorrow.",
+        "timestamp": 1763800720000
+      },
+      {
+        "message_id": 16,
+        "direction": "in",
+        "text": "Looking at flights now. How long should I book accommodation for?",
+        "timestamp": 1763800780000
+      },
+      {
+        "message_id": 17,
+        "direction": "out",
+        "text": "Book at least 2 weeks to be safe. Processing is usually 10-14 business days. If you need to extend your stay, you can do that later. Better to have buffer time than be stressed about accommodation.",
+        "timestamp": 1763800840000
+      },
+      {
+        "message_id": 18,
+        "direction": "in",
+        "text": "Got it. Will wait for your review. Please message me as soon as possible!",
+        "timestamp": 1763800900000
+      },
+      {
+        "message_id": 19,
+        "direction": "out",
+        "text": "Absolutely! We understand the time pressure. Will update you as soon as we've reviewed. Stay by your phone! 📱",
+        "timestamp": 1763800960000
+      },
+      {
+        "message_id": 20,
+        "direction": "out",
+        "text": "UPDATE: Good news! Your documents look complete. Bank balance is good, employment proof is solid. We're ready to proceed. Please make the payment and confirm your travel dates.",
+        "timestamp": 1763804000000
+      },
+      {
+        "message_id": 21,
+        "direction": "in",
+        "text": "Amazing! Paying now. Flying to KL day after tomorrow, arriving evening.",
+        "timestamp": 1763804060000
+      },
+      {
+        "message_id": 22,
+        "direction": "out",
+        "text": "Payment received! We'll submit your application as soon as you send us your arrival stamp photo. Safe travels and keep us updated!",
+        "timestamp": 1763804120000
+      }
+    ]
+  }
+]
