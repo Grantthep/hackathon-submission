@@ -192,7 +192,7 @@ Manually update the AI prompt with specific instructions.
 Test the endpoints hosted publicly on Render/Railway and now you're ready to build from here - time to have fun!
 
 ## 🧪 How to Submit
-1. Work from anywhere
+1. Work from anywhere, get help from anyone, do anything you like
 2. When you're done:
    - Send your GitHub project link to **aaron@issacompass.com**, cc **mai@issacompass.com**
 
