@@ -10,7 +10,7 @@ We’re offering **paid software internships** based on: **Main Character Energy
 
 ## 🌟 Today's Project
 
-Build an **self-learning** AI assistant that can respond to customer messages — helping them early through the visa process (before they get supported by our legal team) and improving through every conversation. 
+Build an **self-learning AI assistant that can respond to customer messages** — helping them early through the visa process (before they get supported by our legal team) and improving through every conversation. 
 
 It’s now possible for Cursor + Opus 4.5 to deliver work in hours that would take even senior engineers much longer without AI. That’s why we treat Cursor, Gemini, and ChatGPT as the default benchmark. You should have a working project within an hour and then refine beyond. Your project should outperform what you’d get by simply prompting Cursor with this description. We want to see the parts that only you — not the model — can contribute.
 
