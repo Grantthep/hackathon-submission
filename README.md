@@ -6,7 +6,7 @@ You'll be working under [Aaron Yip](https://www.linkedin.com/in/aaron-builds) �
 - 20 years building tech in Silicon Valley (video games, self-driving cars, industry advisor for Apple, Google App of the Year)
 - Startup builder, product person, Stanford Uni + Chulalongkorn Uni guest lecturer
 
-We’re offering **paid internships and full-time recent grads** based on: **Main Character Energy** 🔥
+We’re offering **paid internships + full-time recent grads roles** based on: **Main Character Energy** 🔥
 
 ## 🌟 Today's Project
 
