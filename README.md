@@ -48,7 +48,7 @@ This contains sample messages with customers
 - But responses **must not sound like an AI** — make it human, casual, similar to the sample chat data
 - The AI is self-learning and trains on sample data to improve. You have a base 
 
-_(You don't have to use Python - but for the rest of this project description, I'm going to describe a Python-based system)_
+(You don't have to use Python - but for the rest of this project description, I'm going to describe a Python-based system)
 
 ## 1️⃣ How to Get Started
 1. Get API keys to free tiers for LLMs - Google (Gemma 2 API, Gemini API), Groq API (Llama, Mistral), Claude API
@@ -57,7 +57,7 @@ _(You don't have to use Python - but for the rest of this project description, I
 4. You will use Claude + ChatGPT on a browser to understand systems and ideas, and Cursor to update the code itself
 5. Set up a basic Flask server (just returns hello world) and host it on Render or Railway.app or Fly.io
 
-_(If you want to have a frontend visualization, I recommend Next.js hosted on Vercel)_
+(If you want to have a frontend visualization, I recommend Next.js hosted on Vercel)
 
 ## 2️⃣ Prompts to Create Your Microservice
 In the project, have an .env file with your API keys. 
@@ -69,13 +69,13 @@ Then open Cursor in your project (a basic Flask server with .env file with keys)
 
 **BROWSER PROMPT 1:**
 
-_(Switch over to Claude broswer, attach conversations.json and then prompt it, then copy this prompt back into Cursor) _
+(Switch over to Claude broswer, attach conversations.json and then prompt it, then copy this prompt back into Cursor)
 
 `conversations.json` represents DM text exchange between clients ("in" messages) and immigration consultants ("out" messages). Clients send 1+ DM sequence followed by consultant's 1+ DM sequence reply. Generate a prompt for LLM that takes in a client sequence + preceeding chat history and returns an appropriate AI chatbot reply in json format, eg {"reply": "reply goes here"}
 
 **CURSOR PROMPT 2:**
 
-_[Copy the above generated prompt here]_
+[Copy the above generated prompt here]
 
 This is a prompt for LLM that takes in a client sequence + preceeding chat history and returns an appropriate chat AI reply in json format. Update the script to use [YOUR LLM OF CHOICE through API KEY IN ENV] with this prompt to generate AI replies given client sequences + preceeding chat history. Then print out a few samples. 
 
@@ -105,13 +105,13 @@ Try manually updating the prompt in your database - for example, tell it to send
 
 **BROWSER PROMPT 2:**
 
-_(Switch over to Claude broswer, paste in the originally generated AI chatbot prompt, then copy this prompt back into Cursor) _
+(Switch over to Claude broswer, paste in the originally generated AI chatbot prompt, then copy this prompt back into Cursor)
 
 Design and generate an AI chatbot prompt editor prompt. The prompt will take in (1) an existing prompt, (2) client sequence, (3) chat history, (4) real consultant reply, and (5) predicted AI reply. The editor prompt will understand the differences between the real consultant reply and the predicted AI reply, infer the logic and stylistic issues in the AI chatbot prompt, and update the AI chatbot prompt with surgical precision to change specific lines of logic. The editor prompt will return the updated AI chatbot prompt in json format like {"prompt": "new updated prompt"}
 
 **CURSOR PROMPT 4:**
 
-_[Copy the above generated editor prompt here]_
+[Copy the above generated editor prompt here]
 
 This is an AI chatbot editor prompt. The prompt will take in (1) an existing prompt, (2) client sequence, (3) chat history, (4) real consultant reply, and (5) predicted AI reply. The editor prompt will understand the differences between the real consultant reply and the predicted AI reply, and then update the prompt in json format like {"prompt": "new updated prompt"}. 
 
