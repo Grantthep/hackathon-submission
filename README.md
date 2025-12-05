@@ -12,7 +12,7 @@ We’re offering roles for **paid internships + full-time recent graduates** bas
 
 Build an **self-learning AI assistant that can respond to customer messages** - helping them early through the visa process (before they get supported by our legal team) and improving through every conversation. 
 
-It’s now possible for Cursor + Opus 4.5 to deliver work in hours that would take even senior engineers much longer without AI. That’s why we treat Cursor, Gemini, and ChatGPT as the default benchmark. You should have a working project within an hour and then refine beyond. Your project should outperform what you’d get by simply prompting Cursor with this description. We want to see the parts that only you (not the model) can contribute.
+It’s now possible for (Cursor/Antigravity + Opus 4.5/Gemini 3) to deliver work in hours that would take even senior engineers much longer without AI. That’s why we treat Cursor, Antigravity, Gemini, and ChatGPT as the default benchmark. You should have a working project within an hour and then refine beyond. Your project should outperform what you’d get by simply prompting (Cursor/Antigravity) with this description. We want to see the parts that only you (not the model) can contribute.
 
 ## What We Look For
 
@@ -43,7 +43,7 @@ This contains sample messages with customers
 - Anything else that will help build a useful assistant
 
 ### Requirements:
-- Use Cursor and LLMs of your choice - Claude, Gemini, and ChatGPT
+- Use Cursor/Antigravity and LLMs of your choice - Claude, Gemini, and ChatGPT
 - Create a microservice that takes in (1+ client messages) with the conversation history -- and responds intelligently by API call with LLM (ChatGPT, Claude, Gemini, etc)
 - But responses **must not sound like an AI** — make it human, casual, similar to the sample chat data
 - The AI is self-learning and trains on sample data to improve. You have a base 
@@ -54,14 +54,15 @@ This contains sample messages with customers
 1. Get API keys to free tiers for LLMs - Google (Gemma 2 API, Gemini API), Groq API (Llama, Mistral), Claude API
 2. Set up a database and get API keys - Supabase, Neon, and Firestore all have free tiers
 3. Download Cursor - Cursor has a free tier with 50 prompts and then after that, you can use API keys above to continue usage
-4. You will use Claude + ChatGPT on a browser to understand systems and ideas, and Cursor to update the code itself
-5. Set up a basic Flask server (just returns hello world) and host it on Render or Railway.app or Fly.io
+4. (Alternatively, you can use Google Antigravity)
+5. You will use Claude + ChatGPT on a browser to understand systems and ideas, and Cursor/Antigravity to update the code itself
+6. Set up a basic Flask server (just returns hello world) and host it on Render or Railway.app or Fly.io
 
 (If you want to have a frontend visualization, I recommend Next.js hosted on Vercel)
 
 ## 2️⃣ Prompts to Create Your Microservice
 In the project, have an .env file with your API keys. 
-Then open Cursor in your project (a basic Flask server with .env file with keys) and try putting the following in:
+Then open Cursor/Antigravity in your project (a basic Flask server with .env file with keys) and try putting the following in:
 
 **CURSOR PROMPT 1:**
 
