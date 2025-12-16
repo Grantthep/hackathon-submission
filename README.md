@@ -195,12 +195,17 @@ Test the endpoints hosted publicly on Render/Railway and now you're ready to bui
 ## 🧪 How to Submit
 1. Work from anywhere, get help from anyone, do anything you like
 2. When you're done:
-   - Send your GitHub project link to **aaron@issacompass.com**, cc **mai@issacompass.com**
+   - Send your (i) GitHub project link, (ii) hosted server URL e.g. `https://[yourname]-hackathon.up.railway.app`, and (iii) example cURL commands to test your server to **aaron@issacompass.com**, cc **mai@issacompass.com**
 
 ## 🎨 Be Creative, Be Memorable
 Main characters stand out — not because they take the easy path, but because they rise to the moment. 
 
 You’ll get a working project by following the steps - that’s just the starting point, an `F score`. A `C score` means you pushed it meaningfully further. A `B score` means you built something better than almost everyone else. We only make offers to the projects that reach an `A score` — the ones that surprise us and feel unmistakably above the bar.
+
+Some examples of improvements include:
+- Deployment to GCP or AWS using a Dockerized infrastructure, replacing Railway
+- Next.js–based chat interface to visualize conversations and integrate AI workflows
+- Diff visualization to surface self-learning edits and model updates
 
 Think of the main characters you admire — what would they do in this situation? They’d go deeper. Take risks. Push boundaries but always stay brave and kind. That’s who we’re looking for.
 
