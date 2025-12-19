@@ -200,7 +200,7 @@ Test the endpoints hosted publicly on Render/Railway and now you're ready to bui
 ## 🎨 Be Creative, Be Memorable
 Main characters stand out — not because they take the easy path, but because they rise to the moment. 
 
-You’ll get a working project by following the steps - that’s just the starting point, an `F score`. A `C score` means you pushed it meaningfully further. A `B score` means you built something better than almost everyone else. We only make offers to the projects that reach an `A score` — the ones that surprise us and feel unmistakably above the bar.
+You’ll get a working project by following the steps - that’s just the starting point, an `F score`. A `C score` means you pushed it meaningfully further. A `B score` means you built something better than almost everyone else. We only make offers to the projects that reach an `A+ score` — the ones that surprise us and feel unmistakably above every other submission we've seen.
 
 Some examples of improvements include:
 - Deployment to GCP or AWS using a Dockerized infrastructure, replacing Railway
