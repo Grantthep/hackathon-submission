@@ -195,7 +195,7 @@ Test the endpoints hosted publicly on Render/Railway and now you're ready to bui
 ## 🧪 How to Submit
 1. Work from anywhere, get help from anyone, do anything you like
 2. When you're done:
-   - Send your (i) GitHub project link, (ii) hosted server URL e.g. `https://[yourname]-hackathon.up.railway.app`, and (iii) example cURL commands to test your server to **aaron@issacompass.com**, cc **mai@issacompass.com**
+   - Send your (i) GitHub project link, (ii) hosted server URL e.g. `https://[yourname]-hackathon.up.railway.app`, and (iii) example cURL commands to test your server to **aaron@issacompass.com**, cc **recruiting.team@issacompass.com**
 
 ## 🎨 Be Creative, Be Memorable
 Main characters stand out — not because they take the easy path, but because they rise to the moment. 
