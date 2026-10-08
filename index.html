@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Issa Compass DTV Assistant</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1d2433; --muted:#6b7385; --line:#e3e6ec; --me:#0b7a5a; --add:#e3f7ec; --del:#fde8e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151b; --card:#1b2029; --text:#e6e9ef; --muted:#9aa3b5; --line:#2b3240; --me:#21a57d; --add:#173726; --del:#3d1d1d; } }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 system-ui, sans-serif }
+  main { max-width:1100px; margin:0 auto; padding:16px; display:grid; gap:16px; grid-template-columns:1fr 1fr }
+  @media (max-width:800px) { main { grid-template-columns:1fr } }
+  h1 { font-size:20px; margin:16px 16px 0; max-width:1100px } h2 { font-size:16px; margin:0 0 8px }
+  header { max-width:1100px; margin:0 auto } header p { margin:4px 16px 0; color:var(--muted) }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; min-width:0 }
+  #chat { height:380px; overflow-y:auto; display:flex; flex-direction:column; gap:8px; padding:4px }
+  .msg { max-width:85%; padding:8px 12px; border-radius:14px; white-space:pre-wrap; word-wrap:break-word }
+  .client { align-self:flex-end; background:var(--me); color:#fff }
+  .consultant { align-self:flex-start; background:var(--bg); border:1px solid var(--line) }
+  .note { align-self:center; color:var(--muted); font-size:13px }
+  form { display:flex; gap:8px; margin-top:8px }
+  input, textarea { flex:1; min-width:0; padding:8px 10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--text); font:inherit }
+  textarea { width:100%; min-height:60px; resize:vertical }
+  button { padding:8px 14px; border:0; border-radius:8px; background:var(--me); color:#fff; font:inherit; cursor:pointer }
+  button.ghost { background:transparent; color:var(--text); border:1px solid var(--line) }
+  button:disabled { opacity:.5 }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:8px 0 }
+  select { padding:6px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--text); font:inherit }
+  #diff { font:12px/1.5 ui-monospace, monospace; white-space:pre-wrap; max-height:460px; overflow:auto; border:1px solid var(--line); border-radius:8px; padding:8px }
+  .add { background:var(--add) } .del { background:var(--del); text-decoration:line-through }
+  .muted { color:var(--muted); font-size:13px }
+</style>
+</head>
+<body>
+<header>
+  <h1>Issa Compass DTV Assistant</h1>
+  <p id="status">Checking server…</p>
+</header>
+<main>
+  <section>
+    <h2>Chat as a customer</h2>
+    <div id="chat"></div>
+    <form id="send"><input id="text" placeholder="e.g. Hi, can I apply for the DTV from Bali?" autocomplete="off"><button>Send</button></form>
+    <div class="row"><button class="ghost" id="reset" type="button">New chat</button></div>
+    <h2 style="margin-top:16px">Teach it</h2>
+    <p class="muted">Tell it how to change, e.g. "Mention the money-back guarantee when people worry about rejection".</p>
+    <textarea id="instructions"></textarea>
+    <div class="row"><button id="teach" type="button">Update prompt</button><span id="teachOut" class="muted"></span></div>
+  </section>
+  <section>
+    <h2>How the prompt has learned</h2>
+    <div class="row">
+      <select id="version"></select>
+      <span id="meta" class="muted"></span>
+    </div>
+    <div id="diff"></div>
+  </section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+let history = [];
+let versions = [];
+
+async function api(path, body) {
+  const res = await fetch(path, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) } : {});
+  const json = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(json.error || res.statusText);
+  return json;
+}
+
+function bubble(role, text) {
+  const el = document.createElement("div");
+  el.className = "msg " + role;
+  el.textContent = text;
+  $("chat").append(el);
+  $("chat").scrollTop = $("chat").scrollHeight;
+}
+
+$("send").onsubmit = async (e) => {
+  e.preventDefault();
+  const text = $("text").value.trim();
+  if (!text) return;
+  $("text").value = "";
+  bubble("client", text);
+  const btn = e.submitter; btn.disabled = true;
+  try {
+    const { aiReply } = await api("/generate-reply", { clientSequence: text, chatHistory: history, historyOrder: "oldest_first" });
+    history.push({ role: "client", message: text }, { role: "consultant", message: aiReply });
+    bubble("consultant", aiReply);
+  } catch (err) { bubble("note", "Error: " + err.message); }
+  btn.disabled = false;
+};
+
+$("reset").onclick = () => { history = []; $("chat").innerHTML = ""; };
+
+$("teach").onclick = async () => {
+  const instructions = $("instructions").value.trim();
+  if (!instructions) return;
+  $("teach").disabled = true; $("teachOut").textContent = "Rewriting prompt…";
+  try {
+    const r = await api("/improve-ai-manually", { instructions });
+    $("teachOut").textContent = r.version ? "Saved as v" + r.version + ". " + r.changes.join("; ")
+      : r.rejected ? "Rejected: " + r.rejected : "No change was needed.";
+    $("instructions").value = "";
+    await loadVersions();
+  } catch (err) { $("teachOut").textContent = "Error: " + err.message; }
+  $("teach").disabled = false;
+};
+
+// Line diff using longest common subsequence.
+function diff(a, b) {
+  a = a.split("\n"); b = b.split("\n");
+  const n = a.length, m = b.length, L = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    L[i][j] = a[i] === b[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const out = []; let i = 0, j = 0;
+  while (i < n || j < m) {
+    if (i < n && j < m && a[i] === b[j]) { out.push(["", a[i]]); i++; j++; }
+    else if (j < m && (i === n || L[i][j + 1] >= L[i + 1][j])) out.push(["add", b[j++]]);
+    else out.push(["del", a[i++]]);
+  }
+  return out;
+}
+
+function showVersion() {
+  const idx = +$("version").value, cur = versions[idx], prev = versions[idx - 1];
+  $("meta").textContent = [cur.source, cur.created_at && new Date(cur.created_at).toLocaleString(), cur.note].filter(Boolean).join(" · ");
+  $("diff").innerHTML = "";
+  for (const [kind, line] of prev ? diff(prev.prompt, cur.prompt) : [["", cur.prompt]]) {
+    const el = document.createElement("div");
+    el.className = kind; el.textContent = line || " ";
+    $("diff").append(el);
+  }
+  $("diff").querySelector(".add, .del")?.scrollIntoView({ block: "center" });
+}
+
+async function loadVersions() {
+  versions = (await api("/prompt")).versions;
+  $("version").innerHTML = versions.map((v, i) =>
+    `<option value="${i}">${i === 0 && v.source === "seed" ? "Seed prompt" : "v" + v.id + " (" + v.source + ")"}</option>`).join("");
+  $("version").value = versions.length - 1;
+  showVersion();
+}
+$("version").onchange = showVersion;
+
+api("/health").then((h) => {
+  $("status").textContent = h.llm ? `Model: ${h.llm} / ${h.model} · Prompt store: ${h.promptStore}` : "No LLM configured: " + h.model;
+}).catch(() => $("status").textContent = "Server not reachable");
+loadVersions();
+</script>
+</body>
+</html>
