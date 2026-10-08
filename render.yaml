@@ -9,5 +9,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
-      - key: GEMINI_API_KEY
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
         sync: false

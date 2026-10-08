@@ -16,12 +16,12 @@ PROVIDERS = {
     "gemini": {
         "key": "GEMINI_API_KEY",
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
-        "model": "gemini-2.5-flash",
+        "model": "gemini-3.8-flash",
     },
     "groq": {
         "key": "GROQ_API_KEY",
         "base_url": "https://api.groq.com/openai/v1",
-        "model": "llama-3.3-70b-versatile",
+        "model": "openai/gpt-oss-120b",
     },
 }
 
@@ -59,6 +59,9 @@ def chat_json(system, user, temperature=0.4):
             messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
             temperature=temperature,
             response_format={"type": "json_object"},
+            max_tokens=4000,
+            # gpt-oss models think before answering; keep that short so the JSON fits.
+            **({"reasoning_effort": "low"} if "gpt-oss" in model_name() else {}),
         )
     except LLMError:
         raise

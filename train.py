@@ -7,6 +7,7 @@ the real consultant's reply, and let the editor prompt fix the chatbot prompt.
 """
 import argparse
 import random
+import time
 
 from dotenv import load_dotenv
 
@@ -37,16 +38,26 @@ def main():
     samples = samples[: args.limit] if args.limit else samples
     learned = 0
     for i, s in enumerate(samples, 1):
-        result = assistant.improve(
-            s["clientSequence"], s["chatHistory"], s["consultantReply"],
-            note=f"{s['contactId']}: {s['scenario']}",
-        )
+        for attempt in range(3):
+            try:
+                result = assistant.improve(
+                    s["clientSequence"], s["chatHistory"], s["consultantReply"],
+                    note=f"{s['contactId']}: {s['scenario']}",
+                )
+                break
+            except assistant.llm.LLMError as e:
+                # Free tiers have per-minute limits; wait for the window to reset.
+                print(f"[{i}/{len(samples)}] {s['contactId']} -> LLM error, retrying in 60s: {str(e)[:100]}", flush=True)
+                time.sleep(60)
+        else:
+            print(f"[{i}/{len(samples)}] {s['contactId']} -> skipped after 3 failures", flush=True)
+            continue
         if result["version"]:
             learned += 1
             status = f"v{result['version']}: " + "; ".join(result["changes"])
         else:
             status = f"rejected ({result['rejected']})" if result["rejected"] else "no change needed"
-        print(f"[{i}/{len(samples)}] {s['contactId']} -> {status}")
+        print(f"[{i}/{len(samples)}] {s['contactId']} -> {status}", flush=True)
     print(f"\nDone. The prompt changed {learned} time(s). See GET /prompt for the version history.")
 
 
